@@ -1,0 +1,244 @@
+/* Reset Básico e Fontes */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #353535;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #F89B32;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    height: 80px;
+}
+
+.navbar .logo img {
+    height: 40px; /* Ajuste o tamanho do seu logo */
+}
+
+.navbar nav a {
+    color: #353535;
+    text-decoration: none;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 14px;
+    margin-left: 20px;
+    padding: 5px 10px;
+}
+
+.navbar nav a:hover {
+    color: #FFFFFF;
+}
+
+/* Container Principal das Seções */
+.container {
+    max-width: 1100px; /* Aumenta a largura máxima */
+    margin: 40px auto;
+    padding: 60px 30px; /* Aumenta o padding interno */
+    background-color: #E32E5C;
+    border-radius: 8px;
+}
+
+/* Seção Sobre Nós */
+#sobre-nos h2 {
+    margin-bottom: 20px;
+}
+#sobre-nos .conteudo-sobre-nos {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+#sobre-nos .conteudo-sobre-nos .texto {
+    flex: 1;
+}
+#sobre-nos .conteudo-sobre-nos .texto h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+#sobre-nos .conteudo-sobre-nos .imagem {
+    flex: 1;
+    text-align: center;
+}
+#sobre-nos .conteudo-sobre-nos .imagem img {
+    max-width: 100%;
+    border: 3px solid #F89B32;
+}
+#sobre-nos .conteudo-sobre-nos .imagem .legenda {
+    font-size: 12px;
+    margin-top: 5px;
+    font-style: italic;
+}
+
+/* Seção Cardápio */
+#cardapio .conteudo-cardapio {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+#cardapio .imagens-cardapio {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#cardapio .imagens-cardapio img {
+    max-width: 150px;
+    border: 3px solid #F89B32;
+}
+#cardapio .cardapio-lista {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Duas colunas */
+    gap: 15px 40px;
+}
+.cardapio-item {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dashed #FFFFFF;
+    padding-bottom: 5px;
+}
+.cardapio-item .nome {
+    font-weight: bold;
+}
+.cardapio-item .preco {
+    font-weight: bold;
+    color: #F89B32;
+}
+
+/* Seção Jogos */
+#jogos .carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden; /* Esconde os itens que estão fora da visualização */
+    position: relative;
+}
+#jogos .jogos-lista {
+    display: flex;
+    width: 490px; /* (3 * 150px card width) + (2 * 20px gap) */
+    overflow-x: hidden; /* Esconde os itens que estão fora da visualização */
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    gap: 20px;
+    padding: 10px 0;
+    flex-wrap: nowrap; /* Impede que os itens quebrem para a próxima linha */
+}
+.jogo-card {
+    flex: 0 0 auto; /* Impede que os cards encolham ou cresçam */
+    width: 150px; /* Largura fixa para cada card */
+    text-align: center;
+}
+.jogo-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border: 3px solid #F89B32;
+}
+.jogo-card p {
+    margin-top: 10px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 16px;
+}
+.seta-navegacao {
+    font-size: 40px;
+    color: #F89B32;
+    cursor: pointer;
+    user-select: none;
+    padding: 0 10px;
+    z-index: 10;
+    background-color: rgba(227, 46, 92, 0.7); /* Fundo semi-transparente para as setas */
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.seta-navegacao:hover {
+    background-color: rgba(227, 46, 92, 1);
+}
+
+/* Seção Hora de Mer! */
+#hora-de-mer {
+    background-color: #F89B32; /* Cor de fundo diferente como no design */
+}
+#hora-de-mer .conteudo-combo {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+#hora-de-mer .imagem-combo {
+    flex-basis: 200px; /* Largura fixa para a imagem */
+}
+#hora-de-mer .imagem-combo img {
+    max-width: 100%;
+}
+#hora-de-mer .texto-combo {
+    flex: 1;
+}
+#hora-de-mer h2, #hora-de-mer p {
+    color: #353535;
+    text-align: left;
+}
+
+/* Seção Contato */
+#contato {
+    position: relative;
+}
+#contato .conteudo-contato {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+#contato .detalhes {
+    line-height: 1.8;
+}
+#contato .detalhes span {
+    display: block;
+    margin-top: 20px;
+    font-size: 12px;
+}
+#contato .mapa img {
+    max-width: 250px; /* Tamanho ajustável */
+    border: 3px solid #F89B32;
+}
+.voltar-topo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #F89B32;
+    color: #353535;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    display: none; /* Oculta o botão por padrão */
+    z-index: 1000;
+    transition: opacity 0.3s ease-in-out;
+}
+
+
+.voltar-topo.show {
+    display: block;
+    opacity: 1;
+}
+

@@ -1,0 +1,14 @@
+[
+  {
+    "nome": "Jogo 1",
+    "imagem": "imagens/jogo1.png"
+  },
+  {
+    "nome": "LUNCH!",
+    "imagem": "imagens/jogo2.png"
+  },
+  {
+    "nome": "Jogo 3",
+    "imagem": "imagens/jogo3.png"
+  }
+]

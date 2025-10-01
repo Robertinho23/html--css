@@ -1,0 +1,34 @@
+[
+  {
+    "nome": "Americano",
+    "preco": "2.00"
+  },
+  {
+    "nome": "Cappuccino",
+    "preco": "3.00"
+  },
+  {
+    "nome": "Double Espresso",
+    "preco": "3.00"
+  },
+  {
+    "nome": "Latte",
+    "preco": "4.50"
+  },
+  {
+    "nome": "Macchiato",
+    "preco": "5.25"
+  },
+  {
+    "nome": "Hot Chocolate",
+    "preco": "5.50"
+  },
+  {
+    "nome": "Mocha",
+    "preco": "6.00"
+  },
+  {
+    "nome": "White Mocha",
+    "preco": "6.00"
+  }
+]
