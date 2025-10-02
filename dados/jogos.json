@@ -1,14 +1,23 @@
 [
   {
-    "nome": "Jogo 1",
-    "imagem": "imagens/jogo1.png"
+    "nome": "Catan",
+    "imagem": "imagens/catan.png",
+    "jogadores": "2-4",
+    "tempo_jogo": "80 min",
+    "idade_recomendada": "12+"
   },
   {
-    "nome": "LUNCH!",
-    "imagem": "imagens/jogo2.png"
+    "nome": "diXit",
+    "imagem": "imagens/dixit.png",
+    "jogadores": "3-8",
+    "tempo_jogo": "30 min",
+    "idade_recomendada": "8+"
   },
   {
-    "nome": "Jogo 3",
-    "imagem": "imagens/jogo3.png"
+    "nome": "Jogo da Vida",
+    "imagem": "imagens/jogoDaVida.png",
+    "jogadores": "2-6",
+    "tempo_jogo": "90 min",
+    "idade_recomendada": "7+"
   }
 ]

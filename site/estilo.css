@@ -33,7 +33,8 @@ h2 {
 }
 
 .navbar .logo img {
-    height: 40px; /* Ajuste o tamanho do seu logo */
+    height: 70px; /* Ajuste o tamanho do seu logo */
+    border-radius: 10px;
 }
 
 .navbar nav a {
@@ -69,10 +70,13 @@ h2 {
 }
 #sobre-nos .conteudo-sobre-nos .texto {
     flex: 1;
+    text-indent: 1.5em;
 }
 #sobre-nos .conteudo-sobre-nos .texto h3 {
     margin-bottom: 10px;
-    font-size: 18px;
+    font-size: 25px;
+    letter-spacing: 3px;
+    color: black;
 }
 #sobre-nos .conteudo-sobre-nos .imagem {
     flex: 1;
@@ -134,7 +138,7 @@ h2 {
 }
 #jogos .jogos-lista {
     display: flex;
-    width: 490px; /* (3 * 150px card width) + (2 * 20px gap) */
+    width: 580px; /* (3 * 150px card width) + (2 * 20px gap) */
     overflow-x: hidden; /* Esconde os itens que estão fora da visualização */
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
@@ -144,19 +148,29 @@ h2 {
 }
 .jogo-card {
     flex: 0 0 auto; /* Impede que os cards encolham ou cresçam */
-    width: 150px; /* Largura fixa para cada card */
+    width: 180px; /* Largura fixa para cada card */
     text-align: center;
+    border: 3px solid #F89B32;
+    border-radius: 10px;
+    padding: 10px;
 }
 .jogo-card img {
     width: 100%;
-    height: 150px;
+    height: 180px;
     object-fit: cover;
-    border: 3px solid #F89B32;
+    border: 3px solid #494949;
 }
 .jogo-card p {
     margin-top: 10px;
     font-family: 'Press Start 2P', cursive;
-    font-size: 16px;
+    font-size: 10px;
+    text-align: left;
+}
+.jogo-card h2{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+    line-height: 20px;
 }
 .seta-navegacao {
     font-size: 40px;
@@ -214,7 +228,7 @@ h2 {
     font-size: 12px;
 }
 #contato .mapa img {
-    max-width: 250px; /* Tamanho ajustável */
+    max-width: 500px; /* Tamanho ajustável */
     border: 3px solid #F89B32;
 }
 .voltar-topo {
