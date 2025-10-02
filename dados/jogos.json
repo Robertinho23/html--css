@@ -19,5 +19,12 @@
     "jogadores": "2-6",
     "tempo_jogo": "90 min",
     "idade_recomendada": "7+"
+  },
+  {
+    "nome": "Perfil",
+    "imagem": "imagens/perfilJogo.png",
+    "jogadores": "2-6",
+    "tempo_jogo": "45 min",
+    "idade_recomendada": "12+"
   }
 ]
