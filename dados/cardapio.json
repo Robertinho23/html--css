@@ -1,34 +1,74 @@
 [
   {
-    "nome": "Americano",
+    "nome": "Hamburguer",
     "preco": "2.00"
   },
   {
-    "nome": "Cappuccino",
+    "nome": "Água",
     "preco": "3.00"
   },
   {
-    "nome": "Double Espresso",
+    "nome": "Batata frita",
     "preco": "3.00"
   },
   {
-    "nome": "Latte",
+    "nome": "Chopp Bhrama",
     "preco": "4.50"
   },
   {
-    "nome": "Macchiato",
+    "nome": "Peixe frito",
     "preco": "5.25"
   },
   {
-    "nome": "Hot Chocolate",
+    "nome": "Mojito",
     "preco": "5.50"
   },
   {
-    "nome": "Mocha",
-    "preco": "6.00"
+    "nome": "Bolinho de bacalhau",
+    "preco": "10.00"
   },
   {
-    "nome": "White Mocha",
-    "preco": "6.00"
+    "nome": "Whisky",
+    "preco": "15.00"
+  },
+  {
+    "nome": "Bolinha de queijo",
+    "preco": "10.00"
+  },
+  {
+    "nome": "Gin",
+    "preco": "9.00"
+  },
+  {
+    "nome": "Kibe",
+    "preco": "5.00"
+  },
+  {
+    "nome": "Run",
+    "preco": "11.00"
+  },
+  {
+    "nome": "Tempurá",
+    "preco": "5.00"
+  },
+  {
+    "nome": "Vinho",
+    "preco": "7.50"
+  },
+  {
+    "nome": "Pastel",
+    "preco": "9.00"
+  },
+  {
+    "nome": "Vinho branco",
+    "preco": "7.00"
+  },
+  {
+    "nome": "Coxinha",
+    "preco": "9.90"
+  },
+  {
+    "nome": "Caipirinha",
+    "preco": "12.00"
   }
 ]

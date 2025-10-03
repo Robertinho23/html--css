@@ -22,9 +22,23 @@
   },
   {
     "nome": "Perfil",
-    "imagem": "imagens/perfilJogo.png",
+    "imagem": "imagens/perfil.png",
     "jogadores": "2-6",
     "tempo_jogo": "45 min",
     "idade_recomendada": "12+"
+  },
+  {
+    "nome": "Duel",
+    "imagem": "imagens/duel.png",
+    "jogadores": "2",
+    "tempo_jogo": "30 min",
+    "idade_recomendada": "10+"
+  },
+  {
+    "nome": "Xadrez",
+    "imagem": "imagens/xadrez.png",
+    "jogadores": "2",
+    "tempo_jogo": "40 min",
+    "idade_recomendada": "6+"
   }
 ]
