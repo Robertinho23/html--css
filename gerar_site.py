@@ -19,12 +19,17 @@ def gerar_jogos_html(dados):
     html_content = ""
     for jogo in dados:
         html_content += f"""
-        <div class="jogo-card">
-            <img src="{jogo['imagem']}" alt="{jogo['nome']}">
-            <p>{jogo['nome']}</p>
-        </div>
+            <div class="jogo-card">
+                <img src="{jogo['imagem']}" alt="{jogo['nome']}">
+                <h2>{jogo['nome']}</h2>
+                <!-- Adicione as novas informações aqui -->
+                <p class="jogadores">Jogadores: {jogo.get('jogadores', 'N/A')}</p>
+                <p class="tempo-jogo">Tempo: {jogo.get('tempo_jogo', 'N/A')}</p>
+                <p class="idade-recomendada">Idade: {jogo.get('idade_recomendada', 'N/A')}</p>
+            </div>
         """
     return html_content
+
 
 def carregar_dados_json(caminho_arquivo):
     """Carrega dados de um arquivo JSON de forma segura."""

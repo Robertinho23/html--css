@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const nextJogo = document.getElementById("nextJogo");
 
     let currentIndex = 0;
-    const cardWidth = 150; // Largura de cada card de jogo
+    const cardWidth = 180; // Largura de cada card de jogo
     const gap = 20; // Espaçamento entre os cards
     const visibleCards = 3; // Quantidade de cards visíveis por vez
     const totalCards = jogosLista.children.length;
