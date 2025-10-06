@@ -26,14 +26,14 @@ h2 {
     justify-content: space-between;
     align-items: center;
     padding: 10px 5%;
-    position: sticky;
+    position: static;
     top: 0;
     z-index: 1000;
     height: 80px;
 }
 
 .navbar .logo img {
-    height: 70px; /* Ajuste o tamanho do seu logo */
+    height: 70px; 
     border-radius: 10px;
 }
 
@@ -52,9 +52,9 @@ h2 {
 
 /* Container Principal das Seções */
 .container {
-    max-width: 1100px; /* Aumenta a largura máxima */
+    max-width: 1100px; 
     margin: 40px auto;
-    padding: 60px 30px; /* Aumenta o padding interno */
+    padding: 60px 30px; 
     background-color: #E32E5C;
     border-radius: 8px;
 }
@@ -72,18 +72,28 @@ h2 {
     flex: 1;
     text-indent: 1.5em;
 }
+#sobre-nos .conteudo-sobre-nos .texto p {
+    margin-top: 20px;
+    font-size: 16px; 
+    line-height: 1.6; 
+    text-align: justify; 
+    margin-bottom: 15px; 
+    color: #FFFFFF; 
+}
 #sobre-nos .conteudo-sobre-nos .texto h3 {
+    margin-top: 40px;
     margin-bottom: 10px;
     font-size: 25px;
     letter-spacing: 3px;
     color: black;
+    text-decoration: underline;
 }
 #sobre-nos .conteudo-sobre-nos .imagem {
     flex: 1;
     text-align: center;
 }
 #sobre-nos .conteudo-sobre-nos .imagem img {
-    max-width: 100%;
+    max-width: 80%;
     border: 3px solid #F89B32;
 }
 #sobre-nos .conteudo-sobre-nos .imagem .legenda {
@@ -104,7 +114,7 @@ h2 {
     gap: 15px;
 }
 #cardapio .imagens-cardapio img {
-    max-width: 150px;
+    max-width: 200px;
     border: 3px solid #F89B32;
 }
 #cardapio .cardapio-lista {
@@ -138,7 +148,7 @@ h2 {
 }
 #jogos .jogos-lista {
     display: flex;
-    width: 580px; /* (3 * 150px card width) + (2 * 20px gap) */
+    width: 580px; /* (3 * 180px card width) + (2 * 20px gap) */
     overflow-x: hidden; /* Esconde os itens que estão fora da visualização */
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
@@ -179,7 +189,7 @@ h2 {
     user-select: none;
     padding: 0 10px;
     z-index: 10;
-    background-color: rgba(227, 46, 92, 0.7); /* Fundo semi-transparente para as setas */
+    background-color: rgba(227, 46, 92, 0.7); 
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
@@ -189,7 +199,7 @@ h2 {
 
 /* Seção Hora de Mer! */
 #hora-de-mer {
-    background-color: #F89B32; /* Cor de fundo diferente como no design */
+    background-color: #F89B32; 
 }
 #hora-de-mer .conteudo-combo {
     display: flex;
@@ -197,17 +207,26 @@ h2 {
     gap: 30px;
 }
 #hora-de-mer .imagem-combo {
-    flex-basis: 200px; /* Largura fixa para a imagem */
+    flex-basis: 200px; 
 }
 #hora-de-mer .imagem-combo img {
     max-width: 100%;
+    border: 3px solid #E32E5C;
 }
 #hora-de-mer .texto-combo {
     flex: 1;
 }
-#hora-de-mer h2, #hora-de-mer p {
+#hora-de-mer h2 {
     color: #353535;
     text-align: left;
+}
+#hora-de-mer p {
+    margin-top: 20px;
+    font-size: 19px; 
+    line-height: 1.6; 
+    text-align: justify; 
+    margin-bottom: 15px; 
+    color: #353535; 
 }
 
 /* Seção Contato */
@@ -228,7 +247,7 @@ h2 {
     font-size: 12px;
 }
 #contato .mapa img {
-    max-width: 500px; /* Tamanho ajustável */
+    max-width: 350px; 
     border: 3px solid #F89B32;
 }
 .voltar-topo {
@@ -245,7 +264,7 @@ h2 {
     text-decoration: none;
     font-size: 24px;
     font-weight: bold;
-    display: none; /* Oculta o botão por padrão */
+    display: none; 
     z-index: 1000;
     transition: opacity 0.3s ease-in-out;
 }
